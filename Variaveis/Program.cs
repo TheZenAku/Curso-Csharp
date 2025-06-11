@@ -8,6 +8,20 @@ namespace Variaveis
 {
     internal class Program
     {
+
+        enum Notas {
+        minimo  = 10,
+        media   = 20,
+        maxima  = 30
+        
+        }
+
+        struct Pessoa
+        {
+            public string nome;
+            public int idade;
+            public double altura;
+        }
         static void Main(string[] args)
         {
             #region Variaveis e Tipos de Dados integrais
@@ -62,12 +76,67 @@ namespace Variaveis
             #endregion
 
             #region Variável String
-            string texto = @"Olá, Mundo!\nTeste2"; // Tipo string, armazena uma sequência de caracteres
-            string mensagem = null;
-            mensagem = texto;
+            //string texto = @"Olá, Mundo!\nTeste2"; // Tipo string, armazena uma sequência de caracteres
+            //string mensagem = null;
+            //mensagem = texto;
 
-            Console.WriteLine(texto);
-            Console.WriteLine(mensagem);
+            //Console.WriteLine(texto);
+            //Console.WriteLine(mensagem);
+            //Console.ReadKey();
+
+            #endregion
+
+            #region variável var
+            //var valor = "Gabriel"; // Tipo implícito, o compilador determina o tipo com base no valor atribuído
+            #endregion
+
+            #region Variável Object
+            //object obj = 100; // Tipo object, pode armazenar qualquer tipo de dado
+            //obj = 200; // Atribuindo um novo valor do tipo int
+            //Console.WriteLine(obj); // Imprime 200
+            //obj = "gabriel"; // Agora obj é uma string
+            //Console.WriteLine(obj); // Imprime "gabriel"
+            //Console.ReadKey();
+            #endregion
+
+            #region Variável Constante
+            //const double pi = 3.1415;
+            //const string nome = "Gabriel"; // Constante do tipo string
+            #endregion
+
+            #region Enumerações
+
+            //Notas notasAlunos = Notas.media; // Atribuindo um valor do tipo enum Notas
+
+
+            //Console.WriteLine();
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Estruturas de Dados
+
+            Pessoa p1 = new Pessoa(); // Criando uma instância da estrutura Pessoa
+            p1.altura = 1.75;
+            p1.idade = 25;
+            p1.nome = "Gabriel"; // Atribuindo valores aos campos da estrutura
+
+            Pessoa p2 = new Pessoa() {
+                nome = "Arthur",
+                idade = 30,
+                altura = 1.80
+            };
+
+
+            Console.WriteLine(p1.nome); // Imprime o nome da pessoa
+            Console.WriteLine(p1.idade); 
+            Console.WriteLine(p1.altura);
+
+            Console.WriteLine();
+
+            Console.WriteLine(p2.nome); // Imprime o nome da pessoa
+            Console.WriteLine(p2.idade);
+            Console.WriteLine(p2.altura);
             Console.ReadKey();
 
             #endregion
