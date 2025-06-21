@@ -86,6 +86,7 @@ namespace Variaveis
 
             #endregion
 
+            #region variável var
             //var valor = "Gabriel"; // Tipo implícito, o compilador determina o tipo com base no valor atribuído
             #endregion
 
@@ -115,27 +116,27 @@ namespace Variaveis
 
             #region Estruturas de Dados
 
-            Pessoa p1 = new Pessoa(); // Criando uma instância da estrutura Pessoa
-            p1.altura = 1.75;
-            p1.idade = 25;
-            p1.nome = "Gabriel"; // Atribuindo valores aos campos da estrutura
+            //Pessoa p1 = new Pessoa(); // Criando uma instância da estrutura Pessoa
+            //p1.altura = 1.75;
+            //p1.idade = 25;
+            //p1.nome = "Gabriel"; // Atribuindo valores aos campos da estrutura
 
-            Pessoa p2 = new Pessoa() {
-                nome = "Arthur",
-                idade = 30,
-                altura = 1.80
-            };
+            //Pessoa p2 = new Pessoa() {
+            //    nome = "Arthur",
+            //    idade = 30,
+            //    altura = 1.80
+            //};
 
 
-            Console.WriteLine(p1.nome); // Imprime o nome da pessoa
-            Console.WriteLine(p1.idade); 
-            Console.WriteLine(p1.altura);
+            //Console.WriteLine(p1.nome); // Imprime o nome da pessoa
+            //Console.WriteLine(p1.idade); 
+            //Console.WriteLine(p1.altura);
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            Console.WriteLine(texto);
-            Console.WriteLine(mensagem);
-            Console.ReadKey();
+            //Console.WriteLine(texto);
+            //Console.WriteLine(mensagem);
+            //Console.ReadKey();
 
             #endregion
 
