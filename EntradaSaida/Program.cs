@@ -20,7 +20,7 @@ namespace EntradaSaida
             //int codigo = Console.Read(); // Lê o código ASCII da tecla pressionada
             //Console.Write(codigo); // Exibe o código ASCII da tecla pressionada
 
-            //string texto = Console.ReadLine(); // Mantém o console aberto até que uma tecla seja pressionada
+            //string texto = Console.ReadLine();
             //Console.Write(texto);
             #endregion
 

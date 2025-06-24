@@ -26,11 +26,10 @@ namespace Conversao
             //Console.ReadKey(); // Mantém o console aberto para ver o resultado
             #endregion
 
-
             #region conversao explicita
             //ushort num1 = 500;
             //byte num2 = (byte)num1; // Conversão explícita de ushort para byte (pode perder dados se num1 > 255)
-            
+
             //float num3 = 2500.75f; // valor quebrado
             //int num4 = (int)num3; // Conversão explícita de float para int (perde a parte decimal)
 
@@ -38,6 +37,41 @@ namespace Conversao
 
             //Console.WriteLine(letra); // Exibe 100
             //Console.ReadKey(); // Mantém o console aberto para ver o resultado
+            #endregion
+
+            #region metodo parse
+            //string txtNumero = "1985";
+
+            //int numero = int.Parse(txtNumero); // Converte string para int
+
+            //byte num1 = byte.Parse("100"); // Converte string para byte
+
+            //double num2 = double.Parse("10.5"); // Converte string para double
+
+            //float num3 = float.Parse("10.5"); // Converte string para float
+
+            ////Console.Write("Digite o primeiro número: ");
+            ////int numero1 = int.Parse(Console.ReadLine());
+
+            ////Console.Write("Digite o segundo número: ");
+            ////int numero2 = int.Parse(Console.ReadLine());
+
+            ////int soma = numero1 + numero2;
+
+
+            //Console.WriteLine(num2);
+            //Console.ReadKey();
+            #endregion
+
+            #region classe convert
+            //string text = Convert.ToString(2500);
+
+            //double num1 = Convert.ToDouble(false);
+
+            //int num2 = Convert.ToInt32('C');
+
+            //Console.WriteLine(num2);
+            //Console.ReadKey();
             #endregion
         }
     }
